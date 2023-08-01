@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   margin: 0;
@@ -43,14 +45,32 @@ header {
 }
 
 header nav ul li a {
-  color: rgb(255, 251, 0);
-  font-size: 20px;
+  color: rgb(255, 255, 0);
+  font-size: 25px;
   padding: 12px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
 
 header nav ul li a:hover {
   background-color: rgb(255, 251, 0);
   color: rgb(77, 77, 77);
+}
+
+footer {
+  background: linear-gradient(45deg, rgb(24, 24, 24), rgb(67, 68, 68));
+  align-items: center;
+}
+
+footer ul {
+  justify-content: center;
+}
+
+footer ul li {
+  padding: 26px 20px;
+}
+
+footer ul li a img {
+  height: 80px;
+  width: 80px;
 }

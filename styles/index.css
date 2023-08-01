@@ -8,7 +8,7 @@ section#hero {
   height: 800px;
   text-align: center;
   margin: 0;
-  background-image: url("/images/florian-olivo-_F2HOc1Skk8-unsplash.jpg");
+  background-image: url("/images/emma-fabbri-2TmsyZXMNTE-unsplash.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -55,4 +55,53 @@ div#hero-content a {
 
 div#hero-content a:hover {
   background-color: rgb(255, 200, 0);
+}
+
+section#highlights ul#destination {
+  width: 65%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+section#highlights h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(59,65,64);
+}
+
+
+.destinations {
+  margin: 0 15px;
+}
+
+section#highlights ul li img {
+  height: 200px;
+  width: 250px;
+  box-shadow: 2px 5px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+section#highlights ul li p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
+
+section#highlights{
+  padding: 24px;
+  background: linear-gradient(45deg, rgb(277,255,253),rgb(202,243,240));
+}
+
+section#highlights ul li p strong {
+  color: rgb(0, 160, 117);
+  text-transform: uppercase;
+}
+
+p#copyright{
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
 }
